@@ -36,11 +36,16 @@
     "typescript": "^2.3.4"
   },
   "jspm": {
+    "main": "src/js-view-engine.ts",
     "directories": {
       "baseURL": "src",
       "lib": "src",
       "packages": "src"
     },
+    "files": [
+      "src/js-view-engine.ts",
+      "src/**/github/**"
+    ],
     "configFile": "system.conf.js",
     "dependencies": {
       "gtmsportswear/js-local-storage-manager": "github:gtmsportswear/js-local-storage-manager@1.0.2",
